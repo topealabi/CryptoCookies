@@ -86,13 +86,25 @@ label {
   text-align: right;
   margin-right: 0.5em;
 }
+
+input {
+  border:none;
+  border-bottom: solid thin;
+}
+input:focus {
+  border-color: #00A9CE;
+  }
+
 button {
   background: #00A9CE;
   color: rgba(255,255,255, 0.9);
-  padding: 1em;
-  border-radius: 5px;
+  border-radius: 100px;
   border: none;
-  min-width: 180px;  
+  min-width: 180px;
+  height:48px;
   text-transform: capitalize;
+}
 
+button:hover {
+  background: #0094B5;
 }
