@@ -7,22 +7,32 @@
   <script src="./app.js"></script>
 </head>
 <body>
+<header>
+  <div>
   <h1>CryptoCookies</h1>
-  <h2>Decentralized Analytics Platform</h2>
+  <h2>A Decentralized Analytics Platform</h2>
+  </div>
+</header>
+
   <!-- register -->
-  <br>
-  <h3>Register today to get your own subscribe button.</h3>
-  <h3>And in the future you will get first dibs on our decentralized ad platform</h3>
-  <br><label for="amount">Property</label><input type="text" id="amount" placeholder="Coinsheet email newsletter"></input>
-  <br><label for="receiver">Description</label><input type="text" id="receiver" placeholder="Periodical Blockchain news"></input>
+  <content>
+    <div>
+  <h3>Register today to get your own ad button. <br/>
+    And be the first to join our decentralized ad platform.</h3>
+ <div id="register">
+   <div>
+   <label for="amount">Property</label><input type="text" id="amount" placeholder="Coinsheet email newsletter"></input><br>
+   <label for="receiver">Description</label><input type="text" id="receiver" placeholder="Periodical Blockchain news"></input>
   <br><br><button id="send" onclick="App.sendCoin()">Submit</button>
-  <br><br>
+</div>
+ </div>
   <span id="status"></span>
-  <br>
+  </div>
+  </content>
   <!-- your ads -->
-  <h4>Register to get your own cta </h4>
+  <!-- <h4>Register to get your own cta </h4> -->
   <hr>
-  <h3>You have <span class="black"><span id="balance">0</span> Ads</span></h3>
+  <h3>You currently have <span class="black"><span id="balance">0</span> Ads</span></h3>
 
 
   

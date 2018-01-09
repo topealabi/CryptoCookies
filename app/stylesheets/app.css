@@ -1,7 +1,5 @@
 body {
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
+  margin:0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -21,22 +19,50 @@ button {
   padding: 5px;
 }
 
+header {
+  background: #00A9CE;
+  padding: 3em;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+content {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 35vh;
+}
+
+#register {
+  display:block;
+  align-items:center;
+  text-align:center;
+}
+
 h1, h2 {
-  display: inline-block;
   vertical-align: middle;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin: 0;
+  display:block;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
 }
 
 h2 {
-  color: #AAA;
-  font-size: 32px;
+  font-weight: 300;
+  color: rgba(255,255,255, 0.8)
 }
 
 h3 {
   font-weight: normal;
-  color: #AAA;
+  color: #666;
   font-size: 24px;
+  text-align: center;
 }
 
 .black {
@@ -49,4 +75,24 @@ h3 {
 
 .hint {
   color: #666;
+}
+
+hr {
+  border-color: #fafafa;
+}
+
+label {
+  color: #666;
+  text-align: right;
+  margin-right: 0.5em;
+}
+button {
+  background: #00A9CE;
+  color: rgba(255,255,255, 0.9);
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  min-width: 180px;  
+  text-transform: capitalize;
+
 }
