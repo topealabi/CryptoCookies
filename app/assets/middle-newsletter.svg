@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="207px" viewBox="0 0 163 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="161" height="205" rx="4"></rect>
+        <rect id="path-2" x="19" y="91" width="123" height="38" rx="4"></rect>
+    </defs>
+    <g id="new-ad-offer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-634.000000, -464.000000)">
+        <g id="Group-6" transform="translate(357.000000, 242.000000)">
+            <g id="Group-4" transform="translate(270.000000, 223.000000)">
+                <g id="Group-Copy" transform="translate(8.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill-opacity="0.1" fill="#B6B9BD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#B6B9BD" stroke-width="1" x="-0.5" y="-0.5" width="162" height="206" rx="4"></rect>
+                    </g>
+                    <g id="system/scrollbar" transform="translate(155.000000, 5.000000)" stroke="#000000" stroke-linecap="round" stroke-opacity="0.3" stroke-width="8">
+                        <path d="M1.73076923,4.38961039 L1.73076923,58.9350649" id="Line"></path>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill-opacity="0.5" fill="#00A9CE" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#00A9CE" stroke-width="1" x="19.5" y="91.5" width="122" height="37" rx="4"></rect>
+                    </g>
+                    <path d="M19.2098765,15 L52.7927468,15" id="Line" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2118959,30 L133,30" id="Line" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2122302,46 L137,46" id="Line-Copy" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2120623,61 L128,61" id="Line-Copy-2" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2118959,77 L133,77" id="Line-Copy-5" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2122302,140 L137,140" id="Line-Copy-4" stroke="#B6B9BD" stroke-width="8"></path>
+                    <path d="M19.2120623,154 L128,154" id="Line-Copy-3" stroke="#B6B9BD" stroke-width="8"></path>
+                    <rect id="Rectangle-3" fill="#B6B9BD" x="19" y="167" width="59" height="38"></rect>
+                    <rect id="Rectangle-3-Copy" fill="#B6B9BD" x="83" y="167" width="59" height="38"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

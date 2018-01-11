@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="208px" viewBox="0 0 163 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="1" width="161" height="205.375451" rx="4"></rect>
+        <rect id="path-2" x="19.255814" y="161" width="122.638989" height="38.032491" rx="4"></rect>
+    </defs>
+    <g id="new-ad-offer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-854.000000, -465.000000)">
+        <g id="Group-6" transform="translate(357.000000, 242.000000)">
+            <g id="Group-5" transform="translate(490.000000, 223.000000)">
+                <g id="Group-3" transform="translate(8.000000, 0.000000)">
+                    <g id="Group-Copy-2">
+                        <g id="Rectangle">
+                            <use fill-opacity="0.1" fill="#B6B9BD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#B6B9BD" stroke-width="1" x="-0.5" y="0.5" width="162" height="206.375451" rx="4"></rect>
+                        </g>
+                        <g id="system/scrollbar" transform="translate(155.187726, 126.433213)" stroke="#000000" stroke-linecap="round" stroke-opacity="0.3" stroke-width="8">
+                            <path d="M1.73076923,4.38961039 L1.73076923,58.9350649" id="Line"></path>
+                        </g>
+                        <g id="Rectangle-2">
+                            <use fill-opacity="0.5" fill="#00A9CE" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#00A9CE" stroke-width="1" x="19.755814" y="161.5" width="121.638989" height="37.032491" rx="4"></rect>
+                        </g>
+                        <path d="M19.4675622,53.0866426 L133.176392,53.0866426" id="Line-Copy-5" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4680247,69.0866426 L137.244984,69.0866426" id="Line-Copy-4" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4672722,84.0866426 L127.945345,84.0866426" id="Line-Copy-3" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4675622,101.086643 L133.176392,101.086643" id="Line-Copy-9" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4680247,117.086643 L137.244984,117.086643" id="Line-Copy-8" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4672722,132.086643 L127.945345,132.086643" id="Line-Copy-7" stroke="#B6B9BD" stroke-width="8"></path>
+                        <path d="M19.4672722,148.086643 L137.164774,148.086643" id="Line-Copy-10" stroke="#B6B9BD" stroke-width="8"></path>
+                        <rect id="Rectangle-3" fill="#B6B9BD" x="19.255814" y="0" width="58.7039711" height="38.032491"></rect>
+                        <rect id="Rectangle-3-Copy" fill="#B6B9BD" x="82.9069767" y="0" width="58.7039711" height="38.032491"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
