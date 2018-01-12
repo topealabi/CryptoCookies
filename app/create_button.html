@@ -30,52 +30,51 @@
         </nav>
         <h1>Create a new button</h1>
         <aside>
-            <form><div id="register">
-                <div>
-                    <label for="amount" class="hidden">Property</label>
-                    <input type="text" id="amount" placeholder="Your newsletter name"></input>
-                    <label for="receiver" class="hidden">Description</label>
-                    <input type="text" id="receiver" placeholder="Brief description"></input>
-                    <div class="banner-images">
-                        <div>
-                            <label for="top">
-                                <img src="./assets/top-newsletter.svg" alt="">
-                            </label>
+            <form>
+                <div id="register">
+                    <div>
+                        <label for="amount" class="hidden">Property</label>
+                        <input type="text" id="amount" placeholder="Your newsletter name"></input>
+                        <label for="receiver" class="hidden">Description</label>
+                        <input type="text" id="receiver" placeholder="Brief description"></input>
+                        <div class="banner-images">
                             <div>
-                                <input type="radio" name="banner-location" value="top" id="top">
-                                <label for="top">&nbsp;
-                                    Top of newsletter </label>
+                                <label for="top">
+                                    <img src="./assets/top-newsletter.svg" alt="">
+                                </label>
+                                <div>
+                                    <input type="radio" name="banner-location" value="top" id="top">
+                                    <label for="top">&nbsp; Top of newsletter </label>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <label for="middle">
-                                <img src="./assets/middle-newsletter.svg" alt="">
-                            </label>
                             <div>
-                                <input type="radio" name="banner-location" value="middle" id="middle">
-                                <label for="middle">&nbsp;
-                                    Middle of newsletter</label>
+                                <label for="middle">
+                                    <img src="./assets/middle-newsletter.svg" alt="">
+                                </label>
+                                <div>
+                                    <input type="radio" name="banner-location" value="middle" id="middle">
+                                    <label for="middle">&nbsp; Middle of newsletter</label>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <label for="bottom">
-                                <img src="./assets/bottom-newsletter.svg" alt="">
-                            </label>
                             <div>
-                                <input type="radio" name="banner-location" value="bottom" id="bottom">
-                                <label for="bottom">&nbsp;
-                                    Bottom of newsletter</label>
+                                <label for="bottom">
+                                    <img src="./assets/bottom-newsletter.svg" alt="">
+                                </label>
+                                <div>
+                                    <input type="radio" name="banner-location" value="bottom" id="bottom">
+                                    <label for="bottom">&nbsp; Bottom of newsletter</label>
                                 </div>
 
 
-                        </div>
+                            </div>
                         </div>
                         <div class="submit-button">
-                        <button class="button-white" type="reset">Reset form</button>
-                        <button class="button-blue" id="send" onclick="App.sendCoin()">Submit offer</button>
+                            <button class="button-white" type="reset">Reset form</button>
+                            <button class="button-blue" id="send" onclick="App.sendCoin()">Submit offer</button>
 
+                        </div>
                     </div>
-                    </div></form>
+            </form>
         </aside>
     </section>
 </body>
