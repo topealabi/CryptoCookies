@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550px" height="550px" viewBox="0 0 550 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <g id="Group" transform="translate(73.000000, 29.000000)">
+                <circle id="Oval" fill="#AADB1D" cx="202.5" cy="246.5" r="202.5"></circle>
+                <g id="Page-1" transform="translate(118.000000, 0.000000)">
+                    <polygon id="Fill-1" fill="#006E86" points="0 239.9368 59.392 368.3828 105.422 362.8638 46.03 234.4178"></polygon>
+                    <polygon id="Fill-2" fill="#003C49" points="123.7023 295.1617 64.3803 344.7927 110.4113 339.2737 169.7323 289.6437 169.7323 289.6427"></polygon>
+                    <polygon id="Fill-3" fill="#00A9CE" points="59.4414 491.773 118.7124 318.753 59.3924 368.383 0.0004 239.937"></polygon>
+                    <polygon id="Fill-4" fill="#004E5F" points="118.7127 318.7534 59.4417 491.7734 105.4707 486.2544 164.7427 313.2344"></polygon>
+                    <polygon id="Fill-5" fill="#00A9CE" points="5.0275 216.3704 64.2455 5.5184 123.7025 295.1614 64.3805 344.7924"></polygon>
+                    <polygon id="Fill-6" fill="#00748D" points="110.2752 0.0004 64.2452 5.5194 123.7022 295.1614 169.7322 289.6434 169.7322 289.6384"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

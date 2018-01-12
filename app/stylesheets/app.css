@@ -415,3 +415,17 @@ tr:hover td.sorted {
     transform: translateY(-20px);
   }
 }
+
+#logoimg{
+  -webkit-animation: rotation 20s infinite linear;
+  animation-delay: 15s;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
