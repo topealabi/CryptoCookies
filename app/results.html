@@ -6,6 +6,43 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./stylesheets/app.css" type="text/css">
     <script src="./app.js"></script>
+    <script>
+        var MONTH_NAME = ['January', 'Febuary', 'March', 'April', 'May', 'June',
+            'July', 'August', 'September', 'October', 'November', 'December'
+        ];
+
+        function showTime() {
+            function twoDigit(n) {
+                return ('0' + n).slice(-2);
+            }
+
+            function iso8601(date) {
+                return date.getFullYear() +
+                    '-' + twoDigit(1 + date.getMonth()) +
+                    '-' + twoDigit(date.getDate()) +
+                    'T' + twoDigit(date.getHours()) +
+                    ':' + twoDigit(date.getMinutes());
+            }
+
+            function en_US(date) {
+                var h = date.getHours() % 12;
+                return MONTH_NAME[date.getMonth()] +
+                    ' ' + date.getDate() +
+                    ', ' + date.getFullYear() +
+                    ' ' + (h == 0 ? 12 : h) +
+                    ':' + twoDigit(date.getMinutes()) +
+                    ' ' + (date.getHours() < 12 ? 'AM' : 'PM');
+            }
+
+            var timeEl = document.getElementById('time');
+            if (timeEl !== null) {
+                var now = new Date();
+                timeEl.innerHTML = en_US(now);
+                timeDiv.setAttribute('datetime', iso8601(now));
+            }
+        };
+        setInterval(showTime, 1000);
+ </script>
 </head>
 
 <body style="background-color: #484848">
@@ -17,13 +54,13 @@
             <div id="menu">
                 <ul>
                     <li>
-                        <a href="#">Create a button</a>
+                        <a href="create_button.html">Create a button</a>
                     </li>
                     <li>
-                        <a href="#">Publisher rankings</a>
+                        <a href="rankings.html">Publisher rankings</a>
                     </li>
                     <li>
-                        <a href="3" class="button-white">Log out</a>
+                        <a href="#" class="button-white">Log out</a>
                     </li>
                 </ul>
             </div>
@@ -31,15 +68,35 @@
         <h1>Here's your button</h1>
         <aside>
             <div class="success"> Success</div>
-            <p class="center"><strong>01/12/2018 04:30 PM PT</strong><br>Your button has been added to the cryptographic chain</p>
+            <p class="center">
+                <strong>
+                    <time id="time"></time>
+                </strong>
+                <br>Your button has been added to the cryptographic chain</p>
             <br>
-            <div id="address">0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae</div>
-        </aside><br><br><aside>
+            <!-- <div id="address">0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae</div> -->
+            <div id="address"></div>
+            <script>
+            function makeid() {
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for (var i = 0; i < 40; i++)
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+            return text;
+        }
+document.getElementById("address").innerHTML = "0x"+makeid();</script>
+        </aside>
+        <br>
+        <br>
+        <aside>
             <p>Copy and paste this block of code to your newsletter</p>
-            <textarea name="button_html" id="button_html" rows="3" autofocus><button onclick="rosetta_report_conversion('0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae')">[ad_content]</button></textarea>
+            <textarea name="button_html" id="button_html" rows="3" autofocus><button id="rosetta-button"><a href="rankings.html?=0x93e66d9baea28c17d9fc393b53e3fbdd76899dae">Subscribe Here</a></button>
+            </textarea>
             <div class="submit-button">
-                    <button class="button-blue">Create another button</button>
-                </div>
+                <a class="button-blue" href="create_button.html">Create another button</a>
+            </div>
         </aside>
     </section>
     <footer>Made with &#127850; at IDEO CoLab San Francisco</footer>
